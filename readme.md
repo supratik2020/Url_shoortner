@@ -47,9 +47,6 @@ Provides the configuration for containers to host API and MySql. It sets up two 
 The datasource url is being set in the `api-server` configuration so that it points to the MySql container.
 Both `api-server` and `api-db` are linked together through the `urlshortener-mysql-network` docker network. The network enables both the containers to communicate together.
 
-## API Endpoints
-
-You can access following API endpoints at http://localhost:8080
 
 ### POST `/shorten`
 It takes a JSON object in the following format as payload
