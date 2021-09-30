@@ -36,8 +36,6 @@ To deploy the project, run
 docker-compose up --build
 ```
 
-**The application will be accessible on http://localhost:8080**
-
 ### db.Dockerfile
 `db.Dockerfile` builds the docker image for MySql using MySql version 8 as the base image. It uses `schema.sql` at startup to set up the database schema.
 
