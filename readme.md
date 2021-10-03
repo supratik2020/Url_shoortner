@@ -19,7 +19,7 @@ This project depends on
 To build this project, run
 
 ```shell script
-git clone https://github.com/zeeshaanahmad/url-shortener.git
+git clone https://supratik2020.github.io/Url_shortner/.git
 cd url-shortener
 gradle clean build
 ```
